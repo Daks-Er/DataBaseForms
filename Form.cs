@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsLAB6
+namespace DataBaseForms
 {
     public partial class Form : System.Windows.Forms.Form
     {
@@ -179,7 +179,7 @@ namespace WindowsFormsLAB6
                     studentsArray = Students.SearchClass(numberClass, fileProtocol);
                     if (studentsArray.Count() > 0)
                     {
-                        Result.Text += $"{WindowsFormsLAB6.students.Head}" + Environment.NewLine;
+                        Result.Text += $"{DataBaseForms.students.Head}" + Environment.NewLine;
                         foreach (var person in studentsArray)
                         {
                             Result.Text += person.ToString() + Environment.NewLine;
@@ -203,7 +203,7 @@ namespace WindowsFormsLAB6
                     {
                         studentsArray = Students.Sort(3, fileProtocol);
                     }
-                    Result.Text += $"{WindowsFormsLAB6.students.Head}" + Environment.NewLine;
+                    Result.Text += $"{DataBaseForms.students.Head}" + Environment.NewLine;
                     foreach (var person in studentsArray)
                     {
                         Result.Text += person.ToString() + Environment.NewLine;

@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsFormsLAB6
+namespace DataBaseForms
 {
     partial class Form
     {

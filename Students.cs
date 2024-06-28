@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsLAB6 
+namespace DataBaseForms 
 {
     [Serializable]
     internal struct students

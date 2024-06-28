@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace WindowsFormsLAB6.Properties
+namespace DataBaseForms.Properties
 {
     /// <summary>
     ///   Класс ресурсов со строгим типом для поиска локализованных строк и пр.
